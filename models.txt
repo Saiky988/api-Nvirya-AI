@@ -1,0 +1,514 @@
+https://docs.xkiro.com/guides/quickstart/
+
+
+Mistral
+8 models
+Mistral Large 3
+
+mistralai/mistral-large-2512
+
+Mistral's most capable model — a sparse mixture-of-experts with 41B active (675B total) parameters.
+
++1
+Miễn phí
+256K context
+Mistral Medium 3.5
+
+mistralai/mistral-medium-3.5
+
+A dense 128B instruction-following model from Mistral AI for agentic workflows, coding, and complex tasks with text and image inputs.
+
++2
+Miễn phí
+256K context
+Mistral Small 4
+
+mistralai/mistral-small-2603
+
+Mistral's hybrid model unifying instruct, reasoning, and coding in a single efficient model.
+
++2
+Miễn phí
+256K context
+Codestral
+
+mistralai/codestral-2508
+
+Mistral's cutting-edge coding model for low-latency tasks such as fill-in-the-middle, code correction, and test generation.
+
+Miễn phí
+256K context
+Devstral 2
+
+mistralai/devstral-medium
+
+A high-performance code-generation and agentic model developed by Mistral AI and All Hands AI (not a thinking/reasoning model).
+
+Miễn phí
+256K context
+Ministral 3 14B
+
+mistralai/ministral-14b
+
+Ministral 3 (Tinystral) 14B — a best-in-class small model with text and vision.
+
++1
+Miễn phí
+256K context
+Ministral 3 8B
+
+mistralai/ministral-8b
+
+Ministral 3 (Tinystral) 8B — an efficient small model with text and vision.
+
++1
+Miễn phí
+256K context
+Ministral 3 3B
+
+mistralai/ministral-3b
+
+Ministral 3 (Tinystral) 3B — a tiny, ultra-cheap model with text and vision.
+
++1
+Miễn phí
+128K context
+Qwen
+19 models
+Model Qwen miễn phí dùng chung tài nguyên
+
+Các model Qwen miễn phí được rất nhiều người dùng cùng lúc, vì vậy tốc độ phản hồi và độ ổn định có thể dao động vào giờ cao điểm. Với những tác vụ cần hiệu năng ổn định, chúng tôi khuyên bạn nên chọn một model trả phí.
+
+Qwen3.8 Omni Flash (Free)
+
+qwen/qwen3.8-omni-flash:free
+
+Qwen3.8 Omni Flash is the latest natively multimodal model in Alibaba’s Qwen3.8 series — unified text, image, video and audio understanding with a 1M-token context window and thinking support. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.8 Max (Free)
+
+qwen/qwen3.8-max:free
+
+Qwen3.8 Max is the flagship model in Alibaba’s Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.7 Max (Free)
+
+qwen/qwen3.7-max:free
+
+Qwen3.7-Max is the flagship model in Alibaba’s Qwen3.7 series. Context 1M.
+
+Miễn phí
+1M context
+Qwen3.7 Plus (Free)
+
+qwen/qwen3.7-plus:free
+
+Qwen3.7-Plus is a cost-effective model in Alibaba’s Qwen3.7 series. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.7 Flash (Free)
+
+qwen/qwen3.7-flash:free
+
+Qwen3.7 Flash is a vision-language reasoning model from Alibaba. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.6 Plus (Free)
+
+qwen/qwen3.6-plus:free
+
+Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.6 Max Preview (Free)
+
+qwen/qwen3.6-max-preview:free
+
+Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. Context 262K.
+
+Miễn phí
+262K context
+Qwen3.6 27B (Free)
+
+qwen/qwen3.6-27b:free
+
+Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. Context 262K.
+
++2
+Miễn phí
+262K context
+Qwen3.5 Plus (Free)
+
+qwen/qwen3.5-plus:free
+
+Qwen3.5 Plus from Alibaba’s Qwen series. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.5 Omni Plus (Free)
+
+qwen/qwen3.5-omni-plus:free
+
+Qwen3.5 Omni Plus is Alibaba’s most capable natively multimodal model, handling text, image, audio and audio-video understanding with state-of-the-art results across audio benchmarks. Context 262K.
+
++1
+Miễn phí
+262K context
+Qwen3.6 35B A3B (Free)
+
+qwen/qwen3.6-35b-a3b:free
+
+Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. Context 262K.
+
++2
+Miễn phí
+262K context
+Qwen3.5 Flash (Free)
+
+qwen/qwen3.5-flash:free
+
+Qwen3.5 Flash from Alibaba’s Qwen series. Context 1M.
+
++2
+Miễn phí
+1M context
+Qwen3.5 397B A17B (Free)
+
+qwen/qwen3.5-397b-a17b:free
+
+The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Context 262K.
+
++2
+Miễn phí
+262K context
+Qwen3.5 Omni Flash (Free)
+
+qwen/qwen3.5-omni-flash:free
+
+Qwen3.5 Omni Flash is the efficient omni-modal model of the Qwen3.5 series, supporting text, image, video and audio understanding with a long context window. Context 262K.
+
++1
+Miễn phí
+262K context
+Qwen3 Max (Free)
+
+qwen/qwen3-max:free
+
+Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. Context 262K.
+
++2
+Miễn phí
+262K context
+Qwen Plus 0728 (Free)
+
+qwen/qwen-plus-2025-07-28:free
+
+Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination. Context 131K.
+
++2
+Miễn phí
+131K context
+Qwen3 Coder Plus (Free)
+
+qwen/qwen3-coder-plus:free
+
+Qwen3 Coder Plus is Alibaba’s proprietary version of the Open Source Qwen3 Coder 480B A35B. Context 1.04858M.
+
++2
+Miễn phí
+1M context
+Qwen3 VL Plus (Free)
+
+qwen/qwen3-vl-plus:free
+
+Qwen3-VL is Alibaba’s vision-language flagship, combining text and vision without trade-offs. Strong at visual reasoning, OCR, spatial understanding and GUI agent tasks. Context 262K.
+
++2
+Miễn phí
+262K context
+Qwen3 Omni Flash (Free)
+
+qwen/qwen3-omni-flash:free
+
+Qwen3 Omni Flash is Alibaba’s natively omni-modal model, accepting text, image, video and audio input with strong results across audio and audio-visual benchmarks. Context 262K.
+
++1
+Miễn phí
+262K context
+Apodex
+1 model
+Apodex 1.1 Mini (Free)
+
+apodex/apodex-1.1-mini:free
+
+Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results.
+
++1
+Miễn phí
+262K context
+Meta
+2 models
+Muse Spark 1.3 (Free)
+
+meta/muse-spark-1.3-contributor:free
+
+Meta Muse Spark 1.3 is a multimodal reasoning model with a 1M-token context for experimentation, agentic and coding workflows, with image input and tool calling.
+
++2
+Miễn phí
+Tài khoản trả phí
+1M context
+Muse Spark 1.2 (Free)
+
+meta/muse-spark-1.2-contributor:free
+
+Meta Muse Spark 1.2 is a reasoning model with a 1M-token context that accepts text, images, video, audio, and PDF input, plus tool calling and structured outputs.
+
++2
+Miễn phí
+Tài khoản trả phí
+1M context
+Meituan
+2 models
+LongCat 2.5 Preview (Free)
+
+meituan/longcat-2.5-preview:free
+
+LongCat 2.5 Preview is an early-access sparse mixture-of-experts model from Meituan built for coding and long-horizon agentic workflows, offered on a free tier with a 1M-token context.
+
+Miễn phí
+1M context
+LongCat 2.0
+
+meituan/longcat-2.0
+
+LongCat 2.0 is a sparse mixture-of-experts model from Meituan with 48B active parameters out of 1.6T total, built for coding, repository-level changes, long-horizon problem solving, and agentic workflows.
+
+Miễn phí
+1M context
+Stealth
+2 models
+Big Pickle (Free)
+
+stealth/big-pickle
+
+Big Pickle is an anonymous stealth coding model served through the OpenCode client, with tool calling and a 200K-token context window, offered on a free tier.
+
+Miễn phí
+200K context
+Space Bunny Alpha (Free)
+
+stealth/space-bunny-alpha:free
+
+Space Bunny Alpha is an anonymous stealth model with fast inference, strong coding capabilities, image input and a 1M-token context window, offered on a free, rate-limited tier.
+
++2
+Miễn phí
+1M context
+Dots Studio
+1 model
+Dots3-Note Preview (Free)
+
+dots-studio/dots-3-note-preview:free
+
+Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total.
+
++2
+Miễn phí
+512K context
+inclusionAI
+1 model
+Ling 3.0 Flash Sante (Free)
+
+inclusionai/ling-3.0-flash-sante:free
+
+Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.
+
++1
+Miễn phí
+262K context
+Liquid AI
+1 model
+LFM2.5-2.6B (Free)
+
+liquid/lfm-2.5-2.6b:free
+
+LFM2.5-2.6B is a compact reasoning model from Liquid AI.
+
+Miễn phí
+65K context
+SenseNova
+3 models
+SenseNova 6.8 Flash-Lite
+
+sensenova/sensenova-6.8-flash-lite
+
+SenseNova 6.8 Flash-Lite is a lightweight multimodal agent model designed for real-world workflows, supporting text conversation and image input understanding.
+
++2
+Miễn phí
+262K context
+SenseNova 6.7 Flash-Lite
+
+sensenova/sensenova-6.7-flash-lite
+
+SenseNova 6.7 Flash-Lite is a lightweight multimodal agent model designed for real-world workflows, supporting text conversation and image input understanding.
+
++2
+Miễn phí
+262K context
+SenseNova U1.5 Lite
+
+sensenova/sensenova-u1.5-lite
+
+Our latest image creation model built on Neo-unify architecture, combining generation and editing with reference images.
+
+Miễn phí
+$0 mỗi ảnh
+Cohere
+16 models
+Command A+
+
+cohere/command-a-plus
+
+Command A+ is Cohere's flagship model for enterprise agentic workflows, accepting text and image input with native tool calling and built-in reasoning.
+
++2
+Miễn phí
+436K context
+North Mini Code
+
+cohere/north-mini-code
+
+North Mini Code is Cohere's first agentic coding model and the debut of its North family, a sparse mixture-of-experts model with 30B total and 3B active parameters.
+
++1
+Miễn phí
+256K context
+Command A Reasoning
+
+cohere/command-a-reasoning
+
+Command A Reasoning is Cohere's first reasoning model, able to think before generating an output, with tool use for agentic workflows.
+
++1
+Miễn phí
+288K context
+Command A Vision
+
+cohere/command-a-vision
+
+Command A Vision is Cohere's first model capable of processing images, excelling at charts, graphs, diagrams, OCR and document question answering.
+
+Miễn phí
+128K context
+Command A
+
+cohere/command-a
+
+Command A is an open-weights 111B parameter model focused on delivering great performance across agentic, multilingual, and coding use cases.
+
+Miễn phí
+288K context
+Command A Translate
+
+cohere/command-a-translate
+
+Command A Translate is Cohere's state-of-the-art machine translation model, covering 23 languages.
+
+Miễn phí
+8K context
+North Small Translate
+
+cohere/north-small-translate
+
+North Small Translate is a 218B-total, 25B-active mixture-of-experts model purpose-built for machine translation across more than 50 languages.
+
+Miễn phí
+32K context
+Command R+ (08-2024)
+
+cohere/command-r-plus-08-2024
+
+command-r-plus-08-2024 is an update of the Command R+ with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version.
+
+Miễn phí
+128K context
+Command R (08-2024)
+
+cohere/command-r-08-2024
+
+command-r-08-2024 is an update of the Command R with improved performance for multilingual retrieval-augmented generation (RAG) and tool use.
+
+Miễn phí
+128K context
+Command R7B (12-2024)
+
+cohere/command-r7b-12-2024
+
+Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024.
+
+Miễn phí
+132K context
+Aya Expanse 32B
+
+cohere/aya-expanse-32b
+
+Aya Expanse 32B is a highly performant 32B multilingual model serving 23 languages.
+
+Miễn phí
+128K context
+Aya Vision 32B
+
+cohere/aya-vision-32b
+
+Aya Vision 32B is a 32B multilingual model serving 23 languages. Image input is currently not available for this model.
+
+Miễn phí
+16K context
+Tiny Aya Global
+
+cohere/tiny-aya-global
+
+Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across its 70 supported languages.
+
+Miễn phí
+8K context
+Tiny Aya Earth
+
+cohere/tiny-aya-earth
+
+Tiny Aya Earth is a 3.35B region-specialized multilingual model, best for West Asian and African languages, supporting 70 languages.
+
+Miễn phí
+8K context
+Tiny Aya Fire
+
+cohere/tiny-aya-fire
+
+Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages, supporting 70 languages.
+
+Miễn phí
+8K context
+Tiny Aya Water
+
+cohere/tiny-aya-water
+
+Tiny Aya Water is a 3.35B region-specialized multilingual model, best for European and Asia-Pacific languages, supporting 70 languages.
+
+Miễn phí
+8K context
+
