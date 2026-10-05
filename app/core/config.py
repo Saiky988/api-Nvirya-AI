@@ -35,7 +35,7 @@ class Settings:
     # Models
     CODE_MODEL: str = os.getenv("CODE_MODEL", "qwen/qwen3.8-max:free")
     CODE_FALLBACK_MODEL: str = os.getenv("CODE_FALLBACK_MODEL", "mistralai/codestral-2508")
-    ANALYSIS_MODEL: str = os.getenv("ANALYSIS_MODEL", "google/gemini-3.8-flash")
+    ANALYSIS_MODEL: str = os.getenv("ANALYSIS_MODEL", "qwen/qwen3.8-omni-flash:free")
     FAST_MODEL: str = os.getenv("FAST_MODEL", "qwen/qwen3.7-flash:free")
 
     # Rate Limit & Daily Quota
