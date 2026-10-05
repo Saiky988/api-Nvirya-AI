@@ -48,9 +48,11 @@ class AgentOrchestrator:
 
         budget = ExecutionBudget()
 
+        active_provider = self.provider or provider_registry.get_provider_for_model(upstream_model)
+
         # 3. Initialize loop
         loop = AgentLoop(
-            provider=self.provider,
+            provider=active_provider,
             upstream_model=upstream_model,
             context=context,
             budget=budget,
@@ -75,7 +77,8 @@ class AgentOrchestrator:
             and upstream_model != settings.ANALYSIS_MODEL
         ):
             try:
-                synth_response = await self.provider.chat_completion(
+                synth_provider = provider_registry.get_provider_for_model(settings.ANALYSIS_MODEL)
+                synth_response = await synth_provider.chat_completion(
                     model=settings.ANALYSIS_MODEL,
                     messages=context.messages,
                     temperature=temperature,

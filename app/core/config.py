@@ -31,11 +31,15 @@ class Settings:
     # Upstream Provider Configuration
     XKIRO_BASE_URL: str = os.getenv("XKIRO_BASE_URL", "https://api.xkiro.com/v1").rstrip("/")
     XKIRO_API_KEY: str = os.getenv("XKIRO_API_KEY") or os.getenv("XKIRO_API") or ""
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
 
     # Models
     CODE_MODEL: str = os.getenv("CODE_MODEL", "qwen/qwen3.8-max:free")
     CODE_FALLBACK_MODEL: str = os.getenv("CODE_FALLBACK_MODEL", "mistralai/codestral-2508")
-    ANALYSIS_MODEL: str = os.getenv("ANALYSIS_MODEL", "qwen/qwen3.8-omni-flash:free")
+    ANALYSIS_MODEL: str = os.getenv(
+        "ANALYSIS_MODEL",
+        "models/gemini-3.8-flash" if os.getenv("GEMINI_API_KEY") else "qwen/qwen3.8-omni-flash:free",
+    )
     FAST_MODEL: str = os.getenv("FAST_MODEL", "qwen/qwen3.7-flash:free")
 
     # Rate Limit & Daily Quota
